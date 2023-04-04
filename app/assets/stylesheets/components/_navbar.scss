@@ -1,12 +1,42 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+margin-left: 10px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+opacity: 0.5;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background: linear-gradient(45deg, red, blue);
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+.contain-img {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
 }
